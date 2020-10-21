@@ -41,7 +41,7 @@ function generate_option($lower_limit, $upper_limit) {
         
     }
     
-    
+    return $option;
     
 }
 
