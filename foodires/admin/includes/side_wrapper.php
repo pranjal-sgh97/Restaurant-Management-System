@@ -6,6 +6,11 @@
             </div>
 
             <ul class="nav">
-
+                <li class="active">
+                    <a href="food_list.php">
+                        <i class="pe-7s-graph"></i>
+                        <p>Dashboard</p>
+                    </a>
+                </li>
             </ul>
 </div>
