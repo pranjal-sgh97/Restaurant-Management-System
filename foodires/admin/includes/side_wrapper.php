@@ -24,5 +24,11 @@
                         <p>Orders</p>
                     </a>
                 </li>
+                <li>
+                    <a href="reservations.php">
+                        <i class="pe-7s-note2"></i>
+                        <p>Table reservations</p>
+                    </a>
+                </li>
             </ul>
 </div>
