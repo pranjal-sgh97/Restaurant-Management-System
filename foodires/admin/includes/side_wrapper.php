@@ -18,5 +18,11 @@
                         <p>Add Food</p>
                     </a>
                 </li>
+                <li>
+                    <a href="orders.php">
+                        <i class="pe-7s-note2"></i>
+                        <p>Orders</p>
+                    </a>
+                </li>
             </ul>
 </div>
