@@ -160,5 +160,30 @@ if (!isset($_SESSION["cart_array"]) || count($_SESSION["cart_array"]) < 1) {
 	</div>
 	
 </div>
+<div class="content remove_pad" onclick="remove_class()">
+	
+	<div class="inner_content on_parallax">
+		
+		<h2><span class="cart">Food Basket</span></h2>
+		
+		<div class="order_holder">
+			
+			<?php echo $cartOutput; ?>
+			
+		</div>
+		
+		<?php echo $cartTotal; ?>
+		
+		<div class="checkout_section">
+			
+			<?php echo $empty_cart; ?>
+			
+			<?php echo $chkbtn; ?>
+			
+		</div>
+		
+	</div>
+	
+</div>
 </body>
 </html>
