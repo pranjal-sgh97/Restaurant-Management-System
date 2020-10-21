@@ -12,5 +12,11 @@
                         <p>Dashboard</p>
                     </a>
                 </li>
+                <li>
+                    <a href="food_add.php">
+                        <i class="pe-7s-note"></i>
+                        <p>Add Food</p>
+                    </a>
+                </li>
             </ul>
 </div>
