@@ -1,0 +1,24 @@
+<?php
+function render_options($qty, $id) {
+		
+    $option = "";
+    
+    for($x = 1; $x <= 50; $x++) {
+        
+        if($x == $qty) {
+            
+            $option .= "<option value='".$x."_".$id."' selected>$x</option>";
+            
+        }else{
+            
+            $option .= "<option value='".$x."_".$id."'>$x</option>";
+            
+        }
+        
+    }
+    
+    return $option;
+    
+}
+
+?>
