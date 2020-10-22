@@ -100,6 +100,17 @@
 </head>
 <body>
     <?php require "includes/header.php"; ?>
+
+    <div class="parallax" onclick="remove_class()">
+	
+	<div class="parallax_head">
+		
+		<h2>Discover</h2>
+		<h3>FOOD MENU</h3>
+		
+	</div>
+	
+</div>
 </body>
 </html>
     
