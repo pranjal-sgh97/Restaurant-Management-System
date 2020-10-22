@@ -226,5 +226,23 @@ if (!isset($_SESSION["cart_array"]) || count($_SESSION["cart_array"]) < 1) {
 	</div>
 	
 </div>
+
+<!---------contact form---------->
+
+<div class="overlay" id="overlay" onclick="hide_overlay()"></div>
+
+<div class="info_holder">
+		
+		<p class="close_p"><span class="close_sp" onclick="hide_overlay()"></span></p>
+		
+		<h2><span class="tag">Complete Your Order</span></h2>
+		
+		<form method="post" action="" onSubmit="validate_input(); return false">
+
+        </form>
+    </div>
+
+
+
 </body>
 </html>
