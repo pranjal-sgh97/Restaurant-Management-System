@@ -185,5 +185,9 @@ if (!isset($_SESSION["cart_array"]) || count($_SESSION["cart_array"]) < 1) {
 	</div>
 	
 </div>
+
+<div class="content" onclick="remove_class()">
+
+</div>
 </body>
 </html>
