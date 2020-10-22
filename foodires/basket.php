@@ -238,7 +238,14 @@ if (!isset($_SESSION["cart_array"]) || count($_SESSION["cart_array"]) < 1) {
 		<h2><span class="tag">Complete Your Order</span></h2>
 		
 		<form method="post" action="" onSubmit="validate_input(); return false">
-
+        <div class="form_group">
+					 
+                     <div class="form_group">
+                         
+                         <label>Name</label>
+                         <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+                         
+                     </div>
         </form>
     </div>
 
