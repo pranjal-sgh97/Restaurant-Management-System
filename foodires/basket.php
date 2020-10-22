@@ -269,6 +269,11 @@ if (!isset($_SESSION["cart_array"]) || count($_SESSION["cart_array"]) < 1) {
 					<?php echo $chkprice; ?>
 					
 				</div>
+                <div class="form_group">
+					
+					<input type="submit" class="submit" value="PLACE ORDER" />
+					
+				</div>
 				</div>
 
         </form>
