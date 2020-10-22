@@ -111,6 +111,23 @@
 	</div>
 	
 </div>
+<div class="content" onclick="remove_class()">
+	
+	<div class="inner_content on_parallax">
+		
+		<h2><span class="fresh">BreakFast Menu</span></h2>
+		
+		<div class="parallax_content">
+			
+			
+			
+			<p class="clear"></p>
+			
+		</div>
+		
+	</div>
+	
+</div>
 </body>
 </html>
     
