@@ -250,8 +250,27 @@ if (!isset($_SESSION["cart_array"]) || count($_SESSION["cart_array"]) < 1) {
 					
 					<label>Address</label>
 					<input type="text" id="addr"  name="addr" placeholder="Enter your address" required>
+                    </div>
+					
+                    <div class="form_group">
+					
+					<label>Email</label>
+					<input type="Email" id="email" name="email" placeholder="Enter your email" required>
 					
 				</div>
+
+                <div class="form_group">
+					
+					<label>Phone Number</label>
+					<input type="text" id="phone" name="phone" placeholder="Enter your phone number" required>
+					
+					<?php echo $chkfood; ?>
+					
+					<?php echo $chkprice; ?>
+					
+				</div>
+				</div>
+
         </form>
     </div>
 
