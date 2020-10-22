@@ -201,6 +201,7 @@ if (!isset($_SESSION["cart_array"]) || count($_SESSION["cart_array"]) < 1) {
 				<p>Website@gmail.com</p>
 				
 			</div>
+            <p class="left"></p>
 		
 	</div>
 
