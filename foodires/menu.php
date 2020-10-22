@@ -119,7 +119,7 @@
 		
 		<div class="parallax_content">
 			
-			
+        <?php echo ($bfast == "") ? "<h3 style=' text-align: center; font-weight: lighter; padding: 10px 0px; background: #ffeeee; color: #333;'>Your shopping basket is empty</h3>" : $bfast; ?>
 			
 			<p class="clear"></p>
 			
