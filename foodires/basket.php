@@ -194,6 +194,13 @@ if (!isset($_SESSION["cart_array"]) || count($_SESSION["cart_array"]) < 1) {
 				<p>Buk New Site, New Campus</p>
 				<p>Kano State</p>
             </div>
+            <div class="left">
+				
+				<h3>CONTACT</h3>
+				<p>08054645432, 07086898709</p>
+				<p>Website@gmail.com</p>
+				
+			</div>
 		
 	</div>
 
