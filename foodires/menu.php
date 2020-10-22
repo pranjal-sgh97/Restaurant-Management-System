@@ -162,7 +162,23 @@
 	</div>
 	
 </div>
-
+<div class="content" onclick="remove_class()">
+	
+	<div class="inner_content on_parallax">
+		
+		<h2><span class="fresh">Special Menu</span></h2>
+		
+		<div class="parallax_content">
+			
+			<?php echo ($special == "") ? "<h3 style=' text-align: center; font-weight: lighter; padding: 10px 0px; background: #ffeeee; color: #333;'>Your shopping basket is empty</h3>" : $special; ?>
+			
+			<p class="clear"></p>
+			
+		</div>
+		
+	</div>
+	
+</div>
 
 </body>
 </html>
