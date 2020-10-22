@@ -187,6 +187,9 @@ if (!isset($_SESSION["cart_array"]) || count($_SESSION["cart_array"]) < 1) {
 </div>
 
 <div class="content" onclick="remove_class()">
+
+    <div class="inner_content">
+
     <div class="contact">
 			
 			<div class="left">
@@ -209,6 +212,7 @@ if (!isset($_SESSION["cart_array"]) || count($_SESSION["cart_array"]) < 1) {
 				<a href="#"><img src="image/icons/Twitter.png" alt="image/icons/Twitter.png"  /></a>
 				
 			</div>
+        </div>
 		
 	</div>
 
