@@ -21,7 +21,13 @@
                             <div class='detail'>
                             <h4>".$row['food_name']."</h4>
 								<p class='desc'>".substr($row['food_description'], 0, 40)."...</p>
-								<p class='price'>#".$row['food_price']."</p>
+                                <p class='price'>#".$row['food_price']."</p>
+                                
+                                </div>
+							<p class='clear'></p>
+							</a>
+							
+						</div>";
             }
 
         }
