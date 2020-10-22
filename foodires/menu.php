@@ -11,4 +11,12 @@
     
     $get_recent = $db->query("SELECT * FROM food");
 
+    if($get_recent->num_rows) {
+        while ($rows = $get_recent -> fetch_assoc()) {
+
+        }
+
+
+    }
+
     ?>
