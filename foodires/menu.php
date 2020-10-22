@@ -99,7 +99,7 @@
 <script src="js/myscript.js"></script>
 </head>
 <body>
-    
+    <?php require "includes/header.php"; ?>
 </body>
 </html>
     
