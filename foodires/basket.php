@@ -246,6 +246,12 @@ if (!isset($_SESSION["cart_array"]) || count($_SESSION["cart_array"]) < 1) {
                          <input type="text" id="name" name="name" placeholder="Enter your full name" required>
                          
                      </div>
+                     <div class="form_group">
+					
+					<label>Address</label>
+					<input type="text" id="addr"  name="addr" placeholder="Enter your address" required>
+					
+				</div>
         </form>
     </div>
 
