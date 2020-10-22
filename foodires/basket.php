@@ -187,6 +187,15 @@ if (!isset($_SESSION["cart_array"]) || count($_SESSION["cart_array"]) < 1) {
 </div>
 
 <div class="content" onclick="remove_class()">
+    <div class="contact">
+			
+			<div class="left">
+            <h3>LOCATION</h3>
+				<p>Buk New Site, New Campus</p>
+				<p>Kano State</p>
+            </div>
+		
+	</div>
 
 </div>
 </body>
