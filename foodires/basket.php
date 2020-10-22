@@ -33,6 +33,8 @@
     if ($wasFound == false) {
         array_push($_SESSION["cart_array"], array("item_id" => $fid, "quantity" => $qty));
     }
+}
+    
     header("location: basket.php"); 
 		exit();
 }
@@ -277,6 +279,7 @@ if (!isset($_SESSION["cart_array"]) || count($_SESSION["cart_array"]) < 1) {
 				</div>
 
         </form>
+    </div>
     </div>
 
 </body>
