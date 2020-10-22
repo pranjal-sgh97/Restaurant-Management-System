@@ -14,6 +14,10 @@
     if($get_recent->num_rows) {
         while ($rows = $get_recent -> fetch_assoc()) {
 
+            if($row['food_category'] == "breakfast") {
+                
+            }
+
         }
 
 
