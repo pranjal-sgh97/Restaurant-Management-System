@@ -7,5 +7,8 @@
     $bfast = "";
 	$lunch = "";
 	$dinner = "";
-	$special = "";
+    $special = "";
+    
+    $get_recent = $db->query("SELECT * FROM food");
+
     ?>
