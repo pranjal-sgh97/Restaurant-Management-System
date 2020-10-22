@@ -279,7 +279,5 @@ if (!isset($_SESSION["cart_array"]) || count($_SESSION["cart_array"]) < 1) {
         </form>
     </div>
 
-
-
 </body>
 </html>
