@@ -16,3 +16,13 @@ header {
 	margin-bottom: 60px;
 	z-index: 100;
 }
+div.nav_toggle {
+	padding: 20px;
+	width: 40px;
+	height: 40px;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	z-index: 200;
+	display: none;
+}
