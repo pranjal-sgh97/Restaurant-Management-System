@@ -223,7 +223,7 @@ if (!isset($_SESSION["cart_array"]) || count($_SESSION["cart_array"]) < 1) {
 	
 	<div class="on_footer_parallax">
 		
-		<p>&copy; <?php echo strftime("%Y", time()); ?> <span>MyRestaurant</span>. All Rights Reserved</p>
+		<p><?php echo strftime("%Y", time()); ?> <span>MyRestaurant</span>. All Rights Reserved</p>
 		
 	</div>
 	
