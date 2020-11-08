@@ -1,28 +1,5 @@
 * {
 	margin: 0;
-	padding: 0;
+	padding: 10px;
 	box-sizing: border-box;
-}
-body {
-	font-family: 'Arial', 'Times New Roman';
-}
-header {
-	display: block;
-	background: #D54114;
-	position: fixed;
-	width: 100%;
-	right: 0;
-	top: 0;
-	margin-bottom: 60px;
-	z-index: 100;
-}
-div.nav_toggle {
-	padding: 20px;
-	width: 40px;
-	height: 40px;
-	position: absolute;
-	top: 0px;
-	left: 0px;
-	z-index: 200;
-	display: none;
 }
