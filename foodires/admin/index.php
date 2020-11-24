@@ -8,6 +8,8 @@
     }
     if($_SERVER['REQUEST_METHOD'] == 'POST') {
         if(isset($_POST['submit'])) {
+            $user = escape($_POST['username']);
+			$pass = md5($_POST['password']);
         }
     }
 
