@@ -14,3 +14,13 @@ body {
 	clear: both;
 	line-height: 0;
 }
+header {
+	display: block;
+	background: hsl(221, 83%, 46%);
+	position: fixed;
+	width: 100%;
+	right: 0;
+	top: 0;
+	margin-bottom: 60px;
+	z-index: 1;
+}
