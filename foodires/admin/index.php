@@ -54,6 +54,10 @@
     <!--  Light Bootstrap Table core CSS -->
     <link href="assets/css/light-bootstrap-dashboard.css" rel="stylesheet"/>
 
+    <!--     Fonts and icons     -->
+    <link href="assets/css/pe-icon-7-stroke.css" rel="stylesheet" />
+	
+	<link href="assets/css/style.css" rel="stylesheet" />
     </head>
     <body>
 
