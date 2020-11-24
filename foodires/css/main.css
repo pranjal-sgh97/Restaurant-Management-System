@@ -10,3 +10,7 @@ div.nav_section ul {
 body {
 	font-family: Arial, times 'Times New Roman', Times, serif;
 }
+.clear {
+	clear: both;
+	line-height: 0;
+}
