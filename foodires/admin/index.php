@@ -51,6 +51,9 @@
     <!-- Animation library for notifications   -->
     <link href="assets/css/animate.min.css" rel="stylesheet"/>
 
+    <!--  Light Bootstrap Table core CSS -->
+    <link href="assets/css/light-bootstrap-dashboard.css" rel="stylesheet"/>
+
     </head>
     <body>
 
