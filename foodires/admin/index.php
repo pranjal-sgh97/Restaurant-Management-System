@@ -72,6 +72,8 @@
 				<label>Password</label>
 				<input type="password" name="password" class="form-control" placeholder="Enter your password">
 			</div>
+            <input type="submit" name="submit" value="Login" class="btn btn-info btn-fill pull-right" style="background: #FF5722; border-color: #FF5722;" />
+			<div class="clearfix"></div>
     </form>
         
     </body>
