@@ -64,6 +64,10 @@
     <div class="header">
 				<h4 style="border-bottom: 1px solid #FF5722;" class="title">Login Form</h4>
 			</div>
+            <div class="form-group" method="post" action="#">
+				<label>Username</label>
+				<input type="text" name="username" class="form-control" placeholder="Enter Username" autofocus>
+			</div>
     </form>
         
     </body>
