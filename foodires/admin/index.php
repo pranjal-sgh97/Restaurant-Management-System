@@ -60,7 +60,11 @@
 	<link href="assets/css/style.css" rel="stylesheet" />
     </head>
     <body>
-
+    <form method="post" action="index.php">
+    <div class="header">
+				<h4 style="border-bottom: 1px solid #FF5722;" class="title">Login Form</h4>
+			</div>
+    </form>
         
     </body>
     </html>
