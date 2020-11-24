@@ -24,6 +24,10 @@
 					
 					//echo "LOGGED IN";
 					
+				}else{
+					
+					echo "<script>alert('Invalid login credentials. Please try again')</script>";
+					
 				}
 				
 			}
